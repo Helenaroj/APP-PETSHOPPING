@@ -10,4 +10,9 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Correo">Correo</string>
+    <string name="Apellido">Apellido</string>
+    <string name="Celular">Celular</string>
+    <string name="Coopetativa">Cooperativa</string>
 </resources>
