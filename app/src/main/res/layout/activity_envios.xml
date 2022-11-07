@@ -79,6 +79,8 @@
         android:layout_height="70dp"
         android:background="@color/md_blue_100"
         android:clickable="true"
+        android:clipToOutline="false"
+        android:cursorVisible="true"
         android:onClick="@string/title_activity_registro"
         android:text="Iniciar sesión"
         android:textAlignment="center"
