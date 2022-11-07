@@ -57,7 +57,7 @@
         app:layout_constraintVertical_bias="0.318" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Registrese"
         android:layout_width="409dp"
         android:layout_height="70dp"
         android:background="@color/md_blue_100"
@@ -74,7 +74,7 @@
         app:layout_constraintVertical_bias="0.411" />
 
     <Button
-        android:id="@+id/Nuestraubicacion"
+        android:id="@+id/Login"
         android:layout_width="409dp"
         android:layout_height="70dp"
         android:background="@color/md_blue_100"
@@ -82,7 +82,7 @@
         android:clipToOutline="false"
         android:cursorVisible="true"
         android:onClick="@string/title_activity_registro"
-        android:text="Iniciar sesión"
+        android:text="Ingresar"
         android:textAlignment="center"
         android:textColor="@color/md_black_1000"
         android:textStyle="bold"
@@ -92,5 +92,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.612" />
+
+    <Button
+        android:id="@+id/Return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Regresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,20 +11,21 @@ class MainActivity : AppCompatActivity() {
         override fun onCreate(savedInstanceState: Bundle?) {
             binding=ActivityMainBinding.inflate(layoutInflater)
             val view=binding.root
+            super.onCreate(savedInstanceState)
             setContentView(view)
+
         binding.Envios.setOnClickListener{
-            startActivity(Intent(this,registroenvios::class.java))}
+            startActivity(Intent(this,Ingresousuario::class.java))}
             Toast.makeText(this,"click en el boton envios",Toast.LENGTH_LONG).show()
+        binding.Nosotros.setOnClickListener{
+            startActivity(Intent(this,Nosostros::class.java))}
+            Toast.makeText(this,"click en el boton Nosotros",Toast.LENGTH_LONG).show()
+        binding.Contactenos.setOnClickListener{
+            startActivity(Intent(this,contactenos::class.java))}
+            Toast.makeText(this,"click en el boton Contactenos",Toast.LENGTH_LONG).show()
 
-
-
-        setTheme(R.style.Theme_MyApplication)
+            setTheme(R.style.Theme_MyApplication)
         Thread.sleep(3000)
-        super.onCreate(savedInstanceState)
-
 
         }
-
-
-
-        }
+}
