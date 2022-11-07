@@ -38,12 +38,12 @@
         app:layout_constraintVertical_bias="0.059" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Ubicacion"
         android:layout_width="125dp"
         android:layout_height="71dp"
         android:background="@android:color/transparent"
         android:clickable="true"
-        android:text="NUESTRA UBICACIÓN"
+        android:text="@string/Ubicación"
         android:textSize="14sp"
         app:iconTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,7 +55,7 @@
         tools:visibility="visible" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/Nosotros"
         android:layout_width="126dp"
         android:layout_height="43dp"
         android:layout_marginEnd="4dp"
@@ -73,7 +73,7 @@
         app:layout_constraintVertical_bias="0.273" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/Nuestrosclientes"
         android:layout_width="137dp"
         android:layout_height="71dp"
         android:background="@android:color/transparent"
@@ -91,7 +91,7 @@
         app:layout_constraintVertical_bias="0.457" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/Envios"
         android:layout_width="115dp"
         android:layout_height="65dp"
         android:background="@android:color/transparent"
@@ -109,7 +109,7 @@
         app:layout_constraintVertical_bias="0.732" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/Contactenos"
         android:layout_width="148dp"
         android:layout_height="57dp"
         android:background="@android:color/transparent"
