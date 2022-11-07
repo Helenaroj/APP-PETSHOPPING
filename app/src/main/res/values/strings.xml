@@ -1,7 +1,13 @@
 <resources>
     <string name="app_name">My Apppetshopping</string>
+
     <string name="title_activity_envios">Envios</string>
+
     <string name="title_activity_registro">Registro</string>
+
+    <string name="title_activity_nosotros">Nosotros</string>
+    <!-- Strings related to registro_clientes -->
+    <string name="title_activity_registroclientes">Registroclientes</string>
     <string name="Nombre">Nombre</string>
     <string name="Correo">Correo</string>
     <string name="Apellido">Apellido</string>
