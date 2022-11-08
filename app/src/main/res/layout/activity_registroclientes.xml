@@ -97,7 +97,7 @@
         android:id="@+id/textInputLayout9"
         android:layout_width="411dp"
         android:layout_height="55dp"
-        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintBottom_toTopOf="@+id/Registrese2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
@@ -108,14 +108,26 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button8"
-        android:layout_width="310dp"
-        android:layout_height="54dp"
-        android:layout_marginBottom="48dp"
+        android:id="@+id/Registrese2"
+        android:layout_width="175dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="44dp"
         android:clickable="true"
         android:text="REGISTRESE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/return2"
+        android:layout_width="154dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="52dp"
+        android:text="Regresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toEndOf="@+id/Registrese2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
